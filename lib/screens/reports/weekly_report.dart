@@ -74,16 +74,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
   String thirdSale = '0';
   String forthSale = '0';
   String fifthSale = '0';
-  String firstFup = '0';
-  String secondFup = '0';
-  String thirdFup = '0';
-  String forthFup = '0';
-  String fifthFup = '0';
-  String firstNop = '0';
-  String secondNop = '0';
-  String thirdNop = '0';
-  String forthNop = '0';
-  String fifthNop = '0';
+
   String firstAnbp = '0';
   String secondAnbp = '0';
   String thirdAnbp = '0';
@@ -238,16 +229,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
       thirdSale = monthReport.thirdSale.toString();
       forthSale = monthReport.forthSale.toString();
       fifthSale = monthReport.fifthSale.toString();
-      firstFup = monthReport.firstFup.toString();
-      secondFup = monthReport.secondFup.toString();
-      thirdFup = monthReport.thirdFup.toString();
-      forthFup = monthReport.forthFup.toString();
-      fifthFup = monthReport.fifthFup.toString();
-      firstNop = monthReport.firstNop.toString();
-      secondNop = monthReport.secondNop.toString();
-      thirdNop = monthReport.thirdNop.toString();
-      forthNop = monthReport.forthNop.toString();
-      fifthNop = monthReport.fifthNop.toString();
+
       firstAnbp = (monthReport.firstAnbp * 12).toString();
       secondAnbp = (monthReport.secondAnbp * 12).toString();
       thirdAnbp = (monthReport.thirdAnbp * 12).toString();
@@ -1284,7 +1266,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
                                           textAlign: TextAlign.center,
                                         ),
                                       ),
-                                      TableCell(
+                                      /* TableCell(
                                         child: Text(
                                           firstFup,
                                           textAlign: TextAlign.center,
@@ -1295,7 +1277,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
                                           firstNop,
                                           textAlign: TextAlign.center,
                                         ),
-                                      ),
+                                      ), */
                                     ],
                                   ),
                                   // second
@@ -1324,7 +1306,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
                                           textAlign: TextAlign.center,
                                         ),
                                       ),
-                                      TableCell(
+                                      /*  TableCell(
                                         child: Text(
                                           secondFup,
                                           textAlign: TextAlign.center,
@@ -1335,7 +1317,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
                                           secondNop,
                                           textAlign: TextAlign.center,
                                         ),
-                                      ),
+                                      ), */
                                     ],
                                   ),
                                   //third
@@ -1364,7 +1346,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
                                           textAlign: TextAlign.center,
                                         ),
                                       ),
-                                      TableCell(
+                                      /* TableCell(
                                         child: Text(
                                           thirdFup,
                                           textAlign: TextAlign.center,
@@ -1375,7 +1357,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
                                           thirdNop,
                                           textAlign: TextAlign.center,
                                         ),
-                                      ),
+                                      ), */
                                     ],
                                   ),
                                   //4th
@@ -1404,7 +1386,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
                                           textAlign: TextAlign.center,
                                         ),
                                       ),
-                                      TableCell(
+                                      /*  TableCell(
                                         child: Text(
                                           forthFup,
                                           textAlign: TextAlign.center,
@@ -1415,7 +1397,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
                                           forthNop,
                                           textAlign: TextAlign.center,
                                         ),
-                                      ),
+                                      ), */
                                     ],
                                   ),
                                   //5th
@@ -1444,7 +1426,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
                                           textAlign: TextAlign.center,
                                         ),
                                       ),
-                                      TableCell(
+                                      /*  TableCell(
                                         child: Text(
                                           fifthFup,
                                           textAlign: TextAlign.center,
@@ -1455,7 +1437,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
                                           fifthNop,
                                           textAlign: TextAlign.center,
                                         ),
-                                      ),
+                                      ), */
                                     ],
                                   ),
                                   // total
@@ -1500,7 +1482,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
                                           textAlign: TextAlign.center,
                                         ),
                                       ),
-                                      TableCell(
+                                      /* TableCell(
                                         child: Text(
                                           (int.parse(firstFup) +
                                                   int.parse(secondFup) +
@@ -1521,7 +1503,7 @@ class _WeeklyReportsState extends State<WeeklyReports> {
                                               .toString(),
                                           textAlign: TextAlign.center,
                                         ),
-                                      ),
+                                      ), */
                                     ],
                                   ),
                                 ],
